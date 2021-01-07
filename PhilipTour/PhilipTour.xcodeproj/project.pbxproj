@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D916BEED25A769B500876184 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916BEEC25A769B500876184 /* LoginViewController.swift */; };
+		D91BCE4525A75B26001B3A92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCE4425A75B26001B3A92 /* MainViewController.swift */; };
 		D9887C2725A7329300169AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2625A7329300169AFD /* AppDelegate.swift */; };
 		D9887C2925A7329300169AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2825A7329300169AFD /* SceneDelegate.swift */; };
 		D9887C2B25A7329300169AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2A25A7329300169AFD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D916BEEC25A769B500876184 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D91BCE4425A75B26001B3A92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D9887C2325A7329300169AFD /* PhilipTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilipTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9887C2625A7329300169AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9887C2825A7329300169AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		D9887C2525A7329300169AFD /* PhilipTour */ = {
 			isa = PBXGroup;
 			children = (
+				D9887C3B25A732C200169AFD /* Resources */,
 				D9887C2625A7329300169AFD /* AppDelegate.swift */,
 				D9887C2825A7329300169AFD /* SceneDelegate.swift */,
 				D9887C2A25A7329300169AFD /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				D9887C2F25A7329500169AFD /* Assets.xcassets */,
 				D9887C3125A7329500169AFD /* LaunchScreen.storyboard */,
 				D9887C3425A7329500169AFD /* Info.plist */,
+				D91BCE4425A75B26001B3A92 /* MainViewController.swift */,
+				D916BEEC25A769B500876184 /* LoginViewController.swift */,
 			);
 			path = PhilipTour;
+			sourceTree = "<group>";
+		};
+		D9887C3B25A732C200169AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 				D9887C2B25A7329300169AFD /* ViewController.swift in Sources */,
 				D9887C2725A7329300169AFD /* AppDelegate.swift in Sources */,
 				D9887C2925A7329300169AFD /* SceneDelegate.swift in Sources */,
+				D916BEED25A769B500876184 /* LoginViewController.swift in Sources */,
+				D91BCE4525A75B26001B3A92 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
