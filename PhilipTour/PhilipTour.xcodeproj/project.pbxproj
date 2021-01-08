@@ -24,6 +24,8 @@
 		D916BEF525A76BCF00876184 /* exclamation_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation_mark.png; sourceTree = "<group>"; };
 		D916BEF625A76BD000876184 /* launching_illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launching_illustration.png; sourceTree = "<group>"; };
 		D91BCE4425A75B26001B3A92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D97005D625A88662006D228B /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicCoding.ttf; sourceTree = "<group>"; };
+		D97005D725A88663006D228B /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
 		D9887C2325A7329300169AFD /* PhilipTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilipTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9887C2625A7329300169AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9887C2825A7329300169AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D97005D525A88658006D228B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D97005D725A88663006D228B /* NanumGothicCoding-Bold.ttf */,
+				D97005D625A88662006D228B /* NanumGothicCoding.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D9887C1A25A7329300169AFD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +92,7 @@
 		D9887C3B25A732C200169AFD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D97005D525A88658006D228B /* Fonts */,
 				D916BEF525A76BCF00876184 /* exclamation_mark.png */,
 				D916BEF625A76BD000876184 /* launching_illustration.png */,
 			);
