@@ -11,12 +11,16 @@
 		D916BEF725A76BD000876184 /* exclamation_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = D916BEF525A76BCF00876184 /* exclamation_mark.png */; };
 		D916BEF825A76BD000876184 /* launching_illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = D916BEF625A76BD000876184 /* launching_illustration.png */; };
 		D91BCE4525A75B26001B3A92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCE4425A75B26001B3A92 /* MainViewController.swift */; };
+		D9559B9325A8BB2900D3C92E /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9559B9225A8BB2900D3C92E /* back_icon.png */; };
+		D9559B9B25A8BF4100D3C92E /* NanumGothicCoding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9559B9825A8BD9100D3C92E /* NanumGothicCoding.ttf */; };
+		D9559B9D25A8BF4400D3C92E /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9559B9725A8BD9100D3C92E /* NanumGothicCoding-Bold.ttf */; };
 		D9887C2725A7329300169AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2625A7329300169AFD /* AppDelegate.swift */; };
 		D9887C2925A7329300169AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2825A7329300169AFD /* SceneDelegate.swift */; };
 		D9887C2B25A7329300169AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2A25A7329300169AFD /* ViewController.swift */; };
 		D9887C2E25A7329300169AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9887C2C25A7329300169AFD /* Main.storyboard */; };
 		D9887C3025A7329500169AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9887C2F25A7329500169AFD /* Assets.xcassets */; };
 		D9887C3325A7329500169AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9887C3125A7329500169AFD /* LaunchScreen.storyboard */; };
+		D9A33B0625A94A3500E4C36E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +28,9 @@
 		D916BEF525A76BCF00876184 /* exclamation_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation_mark.png; sourceTree = "<group>"; };
 		D916BEF625A76BD000876184 /* launching_illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launching_illustration.png; sourceTree = "<group>"; };
 		D91BCE4425A75B26001B3A92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		D97005D625A88662006D228B /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicCoding.ttf; sourceTree = "<group>"; };
-		D97005D725A88663006D228B /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
+		D9559B9225A8BB2900D3C92E /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
+		D9559B9725A8BD9100D3C92E /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NanumGothicCoding-Bold.ttf"; path = "../../../../../../Downloads/NanumGothicCoding-2.5/NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
+		D9559B9825A8BD9100D3C92E /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumGothicCoding.ttf; path = "../../../../../../Downloads/NanumGothicCoding-2.5/NanumGothicCoding.ttf"; sourceTree = "<group>"; };
 		D9887C2325A7329300169AFD /* PhilipTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilipTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9887C2625A7329300169AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9887C2825A7329300169AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		D9887C2F25A7329500169AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9887C3225A7329500169AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9887C3425A7329500169AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +56,8 @@
 		D97005D525A88658006D228B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				D97005D725A88663006D228B /* NanumGothicCoding-Bold.ttf */,
-				D97005D625A88662006D228B /* NanumGothicCoding.ttf */,
+				D9559B9725A8BD9100D3C92E /* NanumGothicCoding-Bold.ttf */,
+				D9559B9825A8BD9100D3C92E /* NanumGothicCoding.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -85,6 +91,7 @@
 				D9887C3425A7329500169AFD /* Info.plist */,
 				D91BCE4425A75B26001B3A92 /* MainViewController.swift */,
 				D916BEEC25A769B500876184 /* LoginViewController.swift */,
+				D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */,
 			);
 			path = PhilipTour;
 			sourceTree = "<group>";
@@ -94,6 +101,7 @@
 			children = (
 				D97005D525A88658006D228B /* Fonts */,
 				D916BEF525A76BCF00876184 /* exclamation_mark.png */,
+				D9559B9225A8BB2900D3C92E /* back_icon.png */,
 				D916BEF625A76BD000876184 /* launching_illustration.png */,
 			);
 			path = Resources;
@@ -158,9 +166,12 @@
 			files = (
 				D9887C3325A7329500169AFD /* LaunchScreen.storyboard in Resources */,
 				D916BEF825A76BD000876184 /* launching_illustration.png in Resources */,
+				D9559B9B25A8BF4100D3C92E /* NanumGothicCoding.ttf in Resources */,
 				D9887C3025A7329500169AFD /* Assets.xcassets in Resources */,
 				D916BEF725A76BD000876184 /* exclamation_mark.png in Resources */,
+				D9559B9D25A8BF4400D3C92E /* NanumGothicCoding-Bold.ttf in Resources */,
 				D9887C2E25A7329300169AFD /* Main.storyboard in Resources */,
+				D9559B9325A8BB2900D3C92E /* back_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +185,7 @@
 				D9887C2B25A7329300169AFD /* ViewController.swift in Sources */,
 				D9887C2725A7329300169AFD /* AppDelegate.swift in Sources */,
 				D9887C2925A7329300169AFD /* SceneDelegate.swift in Sources */,
+				D9A33B0625A94A3500E4C36E /* RegisterViewController.swift in Sources */,
 				D916BEED25A769B500876184 /* LoginViewController.swift in Sources */,
 				D91BCE4525A75B26001B3A92 /* MainViewController.swift in Sources */,
 			);
@@ -325,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UH5C6VK65;
 				INFOPLIST_FILE = PhilipTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UH5C6VK65;
 				INFOPLIST_FILE = PhilipTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

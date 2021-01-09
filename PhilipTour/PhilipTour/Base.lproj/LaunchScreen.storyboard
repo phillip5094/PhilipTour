@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,14 +27,17 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRc-Fu-cYY">
-                                <rect key="frame" x="0.0" y="206" width="375" height="28"/>
+                                <rect key="frame" x="0.0" y="219" width="375" height="28"/>
                                 <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="16"/>
                                 <state key="normal" title="열심히 일 한 당신 떠나요!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여행기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztr-Ia-NPY">
-                                <rect key="frame" x="0.0" y="119" width="375" height="85"/>
+                                <rect key="frame" x="0.0" y="119" width="375" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="dB7-Tz-yJA"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="85"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -43,7 +47,7 @@
                         <color key="backgroundColor" red="0.32156862745098036" green="0.71372549019607845" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="KIr-kR-JWD" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.565271" id="2XZ-rV-x1w"/>
-                            <constraint firstItem="Ztr-Ia-NPY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="4JE-gL-Tuw"/>
+                            <constraint firstItem="Ztr-Ia-NPY" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="119" id="6mW-mC-ZTg"/>
                             <constraint firstAttribute="bottom" secondItem="KIr-kR-JWD" secondAttribute="bottom" id="836-eb-w4A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pRc-Fu-cYY" secondAttribute="trailing" id="9oK-HW-hL4"/>
                             <constraint firstItem="KIr-kR-JWD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.4" id="OVD-3C-h1O"/>

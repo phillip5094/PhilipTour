@@ -9,13 +9,11 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // 3초 뒤 화면 전환
-        Thread.sleep(forTimeInterval: 3)
+        Thread.sleep(forTimeInterval: 0.1)
         return true
     }
 
