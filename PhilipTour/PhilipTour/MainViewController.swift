@@ -8,24 +8,44 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var registerButton: UIButton!
+    
+    let buttonCornerRadius: CGFloat = 16
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupView()
     }
-    */
 
+    @IBAction func onClickLogin(_ sender: Any) {
+        print("[PhilipTour] onClickLogin Event occured")
+        
+        let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginView")
+        loginVC?.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(loginVC!, animated: true)
+    }
+    
+    @IBAction func onClickRegister(_ sender: Any) {
+        print("[PhilipTour] onClickRegister Event occured")
+        
+        let registerVC = self.storyboard?.instantiateViewController(withIdentifier: "RegisterView")
+        registerVC?.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(registerVC!, animated: true)
+    }
+    
+    func setupView() {
+        self.navigationController?.navigationBar.isHidden = true
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        
+        self.loginButton.layer.cornerRadius = self.buttonCornerRadius
+        self.registerButton.layer.cornerRadius = self.buttonCornerRadius
+    }
 }
