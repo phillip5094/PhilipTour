@@ -3,34 +3,84 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDF65341057EAD1AD4F93808 /* Pods_PhilipTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00010FF3CBCDDE45C4E3EE29 /* Pods_PhilipTour.framework */; };
+		D90767B025ACBA5C00B7C9AE /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D90767AE25ACBA5C00B7C9AE /* NanumGothicCoding-Bold.ttf */; };
+		D90767B125ACBA5C00B7C9AE /* NanumGothicCoding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D90767AF25ACBA5C00B7C9AE /* NanumGothicCoding.ttf */; };
 		D916BEED25A769B500876184 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916BEEC25A769B500876184 /* LoginViewController.swift */; };
 		D916BEF725A76BD000876184 /* exclamation_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = D916BEF525A76BCF00876184 /* exclamation_mark.png */; };
 		D916BEF825A76BD000876184 /* launching_illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = D916BEF625A76BD000876184 /* launching_illustration.png */; };
 		D91BCE4525A75B26001B3A92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BCE4425A75B26001B3A92 /* MainViewController.swift */; };
+		D91FF19425C05D7600789923 /* PTUserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FF19325C05D7600789923 /* PTUserDefaultManager.swift */; };
 		D9559B9325A8BB2900D3C92E /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9559B9225A8BB2900D3C92E /* back_icon.png */; };
-		D9559B9B25A8BF4100D3C92E /* NanumGothicCoding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9559B9825A8BD9100D3C92E /* NanumGothicCoding.ttf */; };
-		D9559B9D25A8BF4400D3C92E /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9559B9725A8BD9100D3C92E /* NanumGothicCoding-Bold.ttf */; };
+		D9597F2925C5939800F25B5A /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2225C5939700F25B5A /* Setting.png */; };
+		D9597F2A25C5939800F25B5A /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2325C5939700F25B5A /* Map.png */; };
+		D9597F2B25C5939800F25B5A /* Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2425C5939700F25B5A /* Schedule.png */; };
+		D9597F2C25C5939800F25B5A /* Schedule_selcted.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2525C5939700F25B5A /* Schedule_selcted.png */; };
+		D9597F2D25C5939800F25B5A /* Home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2625C5939700F25B5A /* Home_selected.png */; };
+		D9597F2E25C5939800F25B5A /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2725C5939700F25B5A /* Message.png */; };
+		D9597F2F25C5939800F25B5A /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F2825C5939700F25B5A /* Home.png */; };
+		D9597F4D25C5E03C00F25B5A /* filter_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9597F4C25C5E03C00F25B5A /* filter_icon.png */; };
+		D983B51A25CC2E0E008AED38 /* PTTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983B51325CC2E0E008AED38 /* PTTabBarController.swift */; };
+		D983B51C25CC2E0E008AED38 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983B51525CC2E0E008AED38 /* HomeNavigationController.swift */; };
+		D983B52025CC2E0E008AED38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983B51925CC2E0E008AED38 /* HomeViewController.swift */; };
+		D983B52425CC2E31008AED38 /* HomeFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983B52325CC2E31008AED38 /* HomeFilterView.swift */; };
+		D983B53125CC3043008AED38 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983B52F25CC3043008AED38 /* HomeTableViewCell.swift */; };
+		D983B53225CC3043008AED38 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D983B53025CC3043008AED38 /* HomeTableViewCell.xib */; };
 		D9887C2725A7329300169AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2625A7329300169AFD /* AppDelegate.swift */; };
 		D9887C2925A7329300169AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2825A7329300169AFD /* SceneDelegate.swift */; };
 		D9887C2B25A7329300169AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9887C2A25A7329300169AFD /* ViewController.swift */; };
 		D9887C2E25A7329300169AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9887C2C25A7329300169AFD /* Main.storyboard */; };
 		D9887C3025A7329500169AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9887C2F25A7329500169AFD /* Assets.xcassets */; };
 		D9887C3325A7329500169AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9887C3125A7329500169AFD /* LaunchScreen.storyboard */; };
+		D9914A9F25B3302800D4293A /* PTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9914A9E25B3302800D4293A /* PTConstants.swift */; };
+		D9914AA225B3313300D4293A /* PTUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9914AA125B3313300D4293A /* PTUtility.swift */; };
 		D9A33B0625A94A3500E4C36E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */; };
+		D9B9A14825CEBBD10042B330 /* HomeImage01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A14525CEBBD00042B330 /* HomeImage01.jpg */; };
+		D9B9A14925CEBBD10042B330 /* HomeImage02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A14625CEBBD10042B330 /* HomeImage02.jpg */; };
+		D9B9A14A25CEBBD10042B330 /* HomeImage03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A14725CEBBD10042B330 /* HomeImage03.jpg */; };
+		D9B9A15025CEDD570042B330 /* ScheduleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B9A14F25CEDD570042B330 /* ScheduleNavigationController.swift */; };
+		D9B9A15425CEDD670042B330 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B9A15325CEDD670042B330 /* ScheduleViewController.swift */; };
+		D9B9A16825CEE3D10042B330 /* ScheduleImage01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A16325CEE3D00042B330 /* ScheduleImage01.jpg */; };
+		D9B9A16925CEE3D10042B330 /* ScheduleImage05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A16425CEE3D00042B330 /* ScheduleImage05.jpg */; };
+		D9B9A16A25CEE3D10042B330 /* ScheduleImage04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A16525CEE3D10042B330 /* ScheduleImage04.jpg */; };
+		D9B9A16B25CEE3D10042B330 /* ScheduleImage03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A16625CEE3D10042B330 /* ScheduleImage03.jpg */; };
+		D9B9A16C25CEE3D10042B330 /* ScheduleImage02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A16725CEE3D10042B330 /* ScheduleImage02.jpg */; };
+		D9B9A16F25CEE7C70042B330 /* left_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A16E25CEE7C70042B330 /* left_dot.png */; };
+		D9B9A17D25CF02BE0042B330 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B9A17B25CF02BE0042B330 /* ScheduleTableViewCell.swift */; };
+		D9B9A17E25CF02BE0042B330 /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B9A17C25CF02BE0042B330 /* ScheduleTableViewCell.xib */; };
+		D9E6494A25AE06D60094802F /* FindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6494925AE06D60094802F /* FindPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00010FF3CBCDDE45C4E3EE29 /* Pods_PhilipTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhilipTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		965FA5B7321DC22A5E81251A /* Pods-PhilipTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhilipTour.debug.xcconfig"; path = "Target Support Files/Pods-PhilipTour/Pods-PhilipTour.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD4F18BEDD8F1EA8ACD2C2B /* Pods-PhilipTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhilipTour.release.xcconfig"; path = "Target Support Files/Pods-PhilipTour/Pods-PhilipTour.release.xcconfig"; sourceTree = "<group>"; };
+		D90767AE25ACBA5C00B7C9AE /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
+		D90767AF25ACBA5C00B7C9AE /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicCoding.ttf; sourceTree = "<group>"; };
 		D916BEEC25A769B500876184 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D916BEF525A76BCF00876184 /* exclamation_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation_mark.png; sourceTree = "<group>"; };
 		D916BEF625A76BD000876184 /* launching_illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launching_illustration.png; sourceTree = "<group>"; };
 		D91BCE4425A75B26001B3A92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D91FF19325C05D7600789923 /* PTUserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTUserDefaultManager.swift; sourceTree = "<group>"; };
 		D9559B9225A8BB2900D3C92E /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
-		D9559B9725A8BD9100D3C92E /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NanumGothicCoding-Bold.ttf"; path = "../../../../../../Downloads/NanumGothicCoding-2.5/NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
-		D9559B9825A8BD9100D3C92E /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumGothicCoding.ttf; path = "../../../../../../Downloads/NanumGothicCoding-2.5/NanumGothicCoding.ttf"; sourceTree = "<group>"; };
+		D9597F2225C5939700F25B5A /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		D9597F2325C5939700F25B5A /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		D9597F2425C5939700F25B5A /* Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schedule.png; sourceTree = "<group>"; };
+		D9597F2525C5939700F25B5A /* Schedule_selcted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schedule_selcted.png; sourceTree = "<group>"; };
+		D9597F2625C5939700F25B5A /* Home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_selected.png; sourceTree = "<group>"; };
+		D9597F2725C5939700F25B5A /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message.png; sourceTree = "<group>"; };
+		D9597F2825C5939700F25B5A /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		D9597F4C25C5E03C00F25B5A /* filter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_icon.png; sourceTree = "<group>"; };
+		D983B51325CC2E0E008AED38 /* PTTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTTabBarController.swift; sourceTree = "<group>"; };
+		D983B51525CC2E0E008AED38 /* HomeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		D983B51925CC2E0E008AED38 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D983B52325CC2E31008AED38 /* HomeFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeFilterView.swift; path = PhilipTour/HomeFilterView.swift; sourceTree = SOURCE_ROOT; };
+		D983B52F25CC3043008AED38 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D983B53025CC3043008AED38 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		D9887C2325A7329300169AFD /* PhilipTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilipTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9887C2625A7329300169AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9887C2825A7329300169AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +89,23 @@
 		D9887C2F25A7329500169AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9887C3225A7329500169AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9887C3425A7329500169AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9914A9E25B3302800D4293A /* PTConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTConstants.swift; sourceTree = "<group>"; };
+		D9914AA125B3313300D4293A /* PTUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTUtility.swift; sourceTree = "<group>"; };
 		D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D9B9A14525CEBBD00042B330 /* HomeImage01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomeImage01.jpg; sourceTree = "<group>"; };
+		D9B9A14625CEBBD10042B330 /* HomeImage02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomeImage02.jpg; sourceTree = "<group>"; };
+		D9B9A14725CEBBD10042B330 /* HomeImage03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomeImage03.jpg; sourceTree = "<group>"; };
+		D9B9A14F25CEDD570042B330 /* ScheduleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNavigationController.swift; sourceTree = "<group>"; };
+		D9B9A15325CEDD670042B330 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		D9B9A16325CEE3D00042B330 /* ScheduleImage01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScheduleImage01.jpg; sourceTree = "<group>"; };
+		D9B9A16425CEE3D00042B330 /* ScheduleImage05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScheduleImage05.jpg; sourceTree = "<group>"; };
+		D9B9A16525CEE3D10042B330 /* ScheduleImage04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScheduleImage04.jpg; sourceTree = "<group>"; };
+		D9B9A16625CEE3D10042B330 /* ScheduleImage03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScheduleImage03.jpg; sourceTree = "<group>"; };
+		D9B9A16725CEE3D10042B330 /* ScheduleImage02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScheduleImage02.jpg; sourceTree = "<group>"; };
+		D9B9A16E25CEE7C70042B330 /* left_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_dot.png; sourceTree = "<group>"; };
+		D9B9A17B25CF02BE0042B330 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		D9B9A17C25CF02BE0042B330 /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		D9E6494925AE06D60094802F /* FindPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,19 +113,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF65341057EAD1AD4F93808 /* Pods_PhilipTour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		145286D9438AEF8F8D223D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				965FA5B7321DC22A5E81251A /* Pods-PhilipTour.debug.xcconfig */,
+				CDD4F18BEDD8F1EA8ACD2C2B /* Pods-PhilipTour.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B903DFEC7E35C7142AE7453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00010FF3CBCDDE45C4E3EE29 /* Pods_PhilipTour.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D97005D525A88658006D228B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				D9559B9725A8BD9100D3C92E /* NanumGothicCoding-Bold.ttf */,
-				D9559B9825A8BD9100D3C92E /* NanumGothicCoding.ttf */,
+				D90767AE25ACBA5C00B7C9AE /* NanumGothicCoding-Bold.ttf */,
+				D90767AF25ACBA5C00B7C9AE /* NanumGothicCoding.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D983B50E25CC2D43008AED38 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D9914A9E25B3302800D4293A /* PTConstants.swift */,
+				D9914AA125B3313300D4293A /* PTUtility.swift */,
+				D91FF19325C05D7600789923 /* PTUserDefaultManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D983B51125CC2D88008AED38 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				D983B51325CC2E0E008AED38 /* PTTabBarController.swift */,
+				D983B51525CC2E0E008AED38 /* HomeNavigationController.swift */,
+				D983B51925CC2E0E008AED38 /* HomeViewController.swift */,
+				D983B52F25CC3043008AED38 /* HomeTableViewCell.swift */,
+				D983B53025CC3043008AED38 /* HomeTableViewCell.xib */,
+				D983B52325CC2E31008AED38 /* HomeFilterView.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		D983B52625CC2E39008AED38 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D91BCE4425A75B26001B3A92 /* MainViewController.swift */,
+				D916BEEC25A769B500876184 /* LoginViewController.swift */,
+				D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */,
+				D9E6494925AE06D60094802F /* FindPasswordViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		D9887C1A25A7329300169AFD = {
@@ -67,6 +185,8 @@
 			children = (
 				D9887C2525A7329300169AFD /* PhilipTour */,
 				D9887C2425A7329300169AFD /* Products */,
+				145286D9438AEF8F8D223D7F /* Pods */,
+				4B903DFEC7E35C7142AE7453 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +201,13 @@
 		D9887C2525A7329300169AFD /* PhilipTour */ = {
 			isa = PBXGroup;
 			children = (
+				D983B52625CC2E39008AED38 /* Main */,
+				D983B51125CC2D88008AED38 /* HomeTab */,
+				D9B9A14E25CEDD390042B330 /* ScheduleTab */,
+				D9B9A15C25CEDD890042B330 /* MapTab */,
+				D9B9A15F25CEDDA00042B330 /* MessageTab */,
+				D9B9A16025CEDDAB0042B330 /* SettingTab */,
+				D983B50E25CC2D43008AED38 /* Util */,
 				D9887C3B25A732C200169AFD /* Resources */,
 				D9887C2625A7329300169AFD /* AppDelegate.swift */,
 				D9887C2825A7329300169AFD /* SceneDelegate.swift */,
@@ -89,9 +216,6 @@
 				D9887C2F25A7329500169AFD /* Assets.xcassets */,
 				D9887C3125A7329500169AFD /* LaunchScreen.storyboard */,
 				D9887C3425A7329500169AFD /* Info.plist */,
-				D91BCE4425A75B26001B3A92 /* MainViewController.swift */,
-				D916BEEC25A769B500876184 /* LoginViewController.swift */,
-				D9A33B0525A94A3500E4C36E /* RegisterViewController.swift */,
 			);
 			path = PhilipTour;
 			sourceTree = "<group>";
@@ -99,12 +223,77 @@
 		D9887C3B25A732C200169AFD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9B9A14425CEBBC60042B330 /* HomeImage */,
+				D9B9A16225CEE32B0042B330 /* ScheduleImage */,
+				D9597F4C25C5E03C00F25B5A /* filter_icon.png */,
+				D9597F2625C5939700F25B5A /* Home_selected.png */,
+				D9597F2825C5939700F25B5A /* Home.png */,
+				D9597F2325C5939700F25B5A /* Map.png */,
+				D9597F2725C5939700F25B5A /* Message.png */,
+				D9597F2525C5939700F25B5A /* Schedule_selcted.png */,
+				D9597F2425C5939700F25B5A /* Schedule.png */,
+				D9597F2225C5939700F25B5A /* Setting.png */,
 				D97005D525A88658006D228B /* Fonts */,
 				D916BEF525A76BCF00876184 /* exclamation_mark.png */,
 				D9559B9225A8BB2900D3C92E /* back_icon.png */,
 				D916BEF625A76BD000876184 /* launching_illustration.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9B9A14425CEBBC60042B330 /* HomeImage */ = {
+			isa = PBXGroup;
+			children = (
+				D9B9A14525CEBBD00042B330 /* HomeImage01.jpg */,
+				D9B9A14625CEBBD10042B330 /* HomeImage02.jpg */,
+				D9B9A14725CEBBD10042B330 /* HomeImage03.jpg */,
+			);
+			path = HomeImage;
+			sourceTree = "<group>";
+		};
+		D9B9A14E25CEDD390042B330 /* ScheduleTab */ = {
+			isa = PBXGroup;
+			children = (
+				D9B9A14F25CEDD570042B330 /* ScheduleNavigationController.swift */,
+				D9B9A15325CEDD670042B330 /* ScheduleViewController.swift */,
+				D9B9A17B25CF02BE0042B330 /* ScheduleTableViewCell.swift */,
+				D9B9A17C25CF02BE0042B330 /* ScheduleTableViewCell.xib */,
+			);
+			path = ScheduleTab;
+			sourceTree = "<group>";
+		};
+		D9B9A15C25CEDD890042B330 /* MapTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapTab;
+			sourceTree = "<group>";
+		};
+		D9B9A15F25CEDDA00042B330 /* MessageTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageTab;
+			sourceTree = "<group>";
+		};
+		D9B9A16025CEDDAB0042B330 /* SettingTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingTab;
+			sourceTree = "<group>";
+		};
+		D9B9A16225CEE32B0042B330 /* ScheduleImage */ = {
+			isa = PBXGroup;
+			children = (
+				D9B9A16E25CEE7C70042B330 /* left_dot.png */,
+				D9B9A16325CEE3D00042B330 /* ScheduleImage01.jpg */,
+				D9B9A16725CEE3D10042B330 /* ScheduleImage02.jpg */,
+				D9B9A16625CEE3D10042B330 /* ScheduleImage03.jpg */,
+				D9B9A16525CEE3D10042B330 /* ScheduleImage04.jpg */,
+				D9B9A16425CEE3D00042B330 /* ScheduleImage05.jpg */,
+			);
+			path = ScheduleImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +303,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9887C3725A7329500169AFD /* Build configuration list for PBXNativeTarget "PhilipTour" */;
 			buildPhases = (
+				F349BD58EB488E294A274B6D /* [CP] Check Pods Manifest.lock */,
 				D9887C1F25A7329300169AFD /* Sources */,
 				D9887C2025A7329300169AFD /* Frameworks */,
 				D9887C2125A7329300169AFD /* Resources */,
+				0AC4379370772DA261615B30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,18 +355,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9597F4D25C5E03C00F25B5A /* filter_icon.png in Resources */,
 				D9887C3325A7329500169AFD /* LaunchScreen.storyboard in Resources */,
 				D916BEF825A76BD000876184 /* launching_illustration.png in Resources */,
-				D9559B9B25A8BF4100D3C92E /* NanumGothicCoding.ttf in Resources */,
+				D9597F2B25C5939800F25B5A /* Schedule.png in Resources */,
+				D9597F2C25C5939800F25B5A /* Schedule_selcted.png in Resources */,
+				D9597F2D25C5939800F25B5A /* Home_selected.png in Resources */,
+				D9597F2E25C5939800F25B5A /* Message.png in Resources */,
+				D9B9A16925CEE3D10042B330 /* ScheduleImage05.jpg in Resources */,
+				D9597F2A25C5939800F25B5A /* Map.png in Resources */,
+				D90767B125ACBA5C00B7C9AE /* NanumGothicCoding.ttf in Resources */,
 				D9887C3025A7329500169AFD /* Assets.xcassets in Resources */,
 				D916BEF725A76BD000876184 /* exclamation_mark.png in Resources */,
-				D9559B9D25A8BF4400D3C92E /* NanumGothicCoding-Bold.ttf in Resources */,
+				D983B53225CC3043008AED38 /* HomeTableViewCell.xib in Resources */,
+				D9B9A14925CEBBD10042B330 /* HomeImage02.jpg in Resources */,
+				D9B9A16B25CEE3D10042B330 /* ScheduleImage03.jpg in Resources */,
+				D9B9A14A25CEBBD10042B330 /* HomeImage03.jpg in Resources */,
+				D9B9A17E25CF02BE0042B330 /* ScheduleTableViewCell.xib in Resources */,
+				D90767B025ACBA5C00B7C9AE /* NanumGothicCoding-Bold.ttf in Resources */,
 				D9887C2E25A7329300169AFD /* Main.storyboard in Resources */,
+				D9B9A16825CEE3D10042B330 /* ScheduleImage01.jpg in Resources */,
+				D9597F2F25C5939800F25B5A /* Home.png in Resources */,
+				D9B9A16F25CEE7C70042B330 /* left_dot.png in Resources */,
+				D9B9A14825CEBBD10042B330 /* HomeImage01.jpg in Resources */,
+				D9597F2925C5939800F25B5A /* Setting.png in Resources */,
+				D9B9A16A25CEE3D10042B330 /* ScheduleImage04.jpg in Resources */,
+				D9B9A16C25CEE3D10042B330 /* ScheduleImage02.jpg in Resources */,
 				D9559B9325A8BB2900D3C92E /* back_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC4379370772DA261615B30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhilipTour/Pods-PhilipTour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhilipTour/Pods-PhilipTour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhilipTour/Pods-PhilipTour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F349BD58EB488E294A274B6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhilipTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9887C1F25A7329300169AFD /* Sources */ = {
@@ -183,9 +435,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9887C2B25A7329300169AFD /* ViewController.swift in Sources */,
+				D983B51A25CC2E0E008AED38 /* PTTabBarController.swift in Sources */,
 				D9887C2725A7329300169AFD /* AppDelegate.swift in Sources */,
+				D983B52025CC2E0E008AED38 /* HomeViewController.swift in Sources */,
+				D983B52425CC2E31008AED38 /* HomeFilterView.swift in Sources */,
+				D983B53125CC3043008AED38 /* HomeTableViewCell.swift in Sources */,
+				D983B51C25CC2E0E008AED38 /* HomeNavigationController.swift in Sources */,
+				D91FF19425C05D7600789923 /* PTUserDefaultManager.swift in Sources */,
+				D9B9A17D25CF02BE0042B330 /* ScheduleTableViewCell.swift in Sources */,
+				D9B9A15025CEDD570042B330 /* ScheduleNavigationController.swift in Sources */,
+				D9B9A15425CEDD670042B330 /* ScheduleViewController.swift in Sources */,
+				D9E6494A25AE06D60094802F /* FindPasswordViewController.swift in Sources */,
 				D9887C2925A7329300169AFD /* SceneDelegate.swift in Sources */,
+				D9914AA225B3313300D4293A /* PTUtility.swift in Sources */,
 				D9A33B0625A94A3500E4C36E /* RegisterViewController.swift in Sources */,
+				D9914A9F25B3302800D4293A /* PTConstants.swift in Sources */,
 				D916BEED25A769B500876184 /* LoginViewController.swift in Sources */,
 				D91BCE4525A75B26001B3A92 /* MainViewController.swift in Sources */,
 			);
@@ -331,6 +595,7 @@
 		};
 		D9887C3825A7329500169AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965FA5B7321DC22A5E81251A /* Pods-PhilipTour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -351,6 +616,7 @@
 		};
 		D9887C3925A7329500169AFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD4F18BEDD8F1EA8ACD2C2B /* Pods-PhilipTour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
